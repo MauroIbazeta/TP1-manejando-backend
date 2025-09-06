@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TP1 - Manejando el backend</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>TP1 - Manejando el backend</h1>
+
+    <section id="form-section">
+      <h2>Agregar concepto</h2>
+      <form id="concept-form">
+        <label>
+          Nombre:
+          <input type="text" id="name" required />
+        </label>
+        <label>
+          Desarrollo:
+          <textarea id="description" required></textarea>
+        </label>
+        <button type="submit">Agregar</button>
+      </form>
+    </section>
+
+    <section id="list-section">
+      <h2>Conceptos guardados</h2>
+      <button id="refresh">Refrescar lista</button>
+      <button id="delete-all">Eliminar todos</button>
+      <ul id="concept-list"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
