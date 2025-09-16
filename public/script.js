@@ -1,4 +1,4 @@
-// Script principal para la interacción frontend
+// Script principal para la interaccion frontend
 
 // Elementos del DOM
 const form = document.getElementById('concept-form');
@@ -54,7 +54,6 @@ async function showDetail(id, li) {
     li.appendChild(errorDiv);
   }
 }
-
 
 //Obtiene la lista de conceptos y la muestra en la vista.
 //Agrega los botones de "Ver detalle" y "Eliminar" a cada concepto.
